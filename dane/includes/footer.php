@@ -1,0 +1,2 @@
+<p class="copyright">Unless otherwise noted, all material &copy; <?php echo date('Y'); ?> Custom Container Homes, LLC.<br>
+See <a href="copyright.php" class="orangelink">Copyright</a> page for terms of use.</p>

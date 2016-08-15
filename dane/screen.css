@@ -1,0 +1,340 @@
+    body {
+        margin:0;
+        padding:0;
+        border:0;			/* This removes the border around the viewport in old versions of IE */
+        width:100%;
+        background:#fff;
+        min-width:600px;    /* Minimum width of layout - remove line if not required */
+							/* The min-width property does not work in old versions of Internet Explorer */
+		font-size:90%;
+    }
+/*	a {
+    	color:#369;
+	}
+	a:hover {
+		color:#fff;
+		background:#369;
+		text-decoration:none;
+	}*/
+
+/*
+    h1, h2, h3 {
+        margin:.8em 0 .2em 0;
+        padding:0;
+    }
+*/	
+	
+h2 {
+/*margin-top: 20px;*/
+margin-bottom: 10px;
+font: bolder 1.4em "Verdana";
+color: #990000;
+}
+
+h3 {
+margin-top: 0;
+margin-bottom: 10px;
+padding-top: 10px;
+font: bolder 110% "Verdana";
+color: #333;
+}
+    p {
+        margin:.4em 0 .8em 0;
+        padding:0;
+		line-height:1.25em;
+    }
+	img {
+		margin:10px 0 5px;
+	}
+	
+	p.copyright {
+padding-bottom: 5px;
+font: 80% "Verdana";
+color: #666;
+text-align: center;
+line-height: 1.5em;
+}
+
+	
+	
+	
+	/* Header styles */
+    #header {
+        clear:both;
+        float:left;
+		background: #000 url(../images/cch-header.jpg) left no-repeat;
+        width:100%;
+		height: 250px;
+    }
+	#header {
+		border-top: 1px solid #000;
+		border-bottom:1px solid #000;
+	}
+	#header p,
+	#header h1,
+	#header h2 /*{
+	    padding:.4em 15px 0 15px;
+        margin:0;
+	}*/
+	#header ul {
+	    clear:left;
+	    float:left;
+	    width:100%;
+	    list-style:none;
+	    margin:10px 0 0 0;
+	    padding:0;
+	}
+	#header ul li {
+	    display:inline;
+	    list-style:none;
+	    margin:0;
+	    padding:0;
+	}
+	#header ul li a {
+	    display:block;
+	    float:left;
+	    margin:0 0 0 1px;
+	    padding:3px 10px;
+	    text-align:center;
+	    background:#eee;
+	    color:#000;
+	    text-decoration:none;
+	    position:relative;
+	    left:15px;
+		line-height:1.3em;
+	}
+	#header ul li a:hover {
+	    background:#369;
+		color:#fff;
+	}
+	#header ul li a.active,
+	#header ul li a.active:hover {
+	    color:#fff;
+	    background:#000;
+	    font-weight:bold;
+	}
+	#header ul li a span {
+	    display:block;
+	}
+	/* 'widths' sub menu */
+	#layoutdims {
+		clear:both;
+		background:#eee;
+		border-top:4px solid #000;
+		margin:0;
+		padding:6px 15px !important;
+		text-align:right;
+	}
+	
+	
+p.body {
+margin: 10px 20px 10px 0;
+font: 1em "Verdana";
+line-height: 1.45em;
+}
+	
+p.space {
+margin-top: -1em;
+}
+	
+	
+	/* centered top menu */
+	
+	
+	
+	#centeredmenu {
+   float:left;
+   width:100%;
+   background:#ccc;
+   border-bottom:1px solid #000;
+   overflow:hidden;
+   position:relative;
+}
+#centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#centeredmenu ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   background:#ccc;
+   color:#990000;
+   text-decoration:none;
+   line-height:1.3em;
+}
+#centeredmenu ul li a:hover {
+   background:#990000;
+   color:#fff;
+}
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+   color:#fff;
+   background:#000;
+   font-weight:bold;
+}
+
+
+li.navbar {
+list-style-type: none;
+/*line-height: 2em;*/
+font: 1em "Verdana";
+color: #000;
+}
+li.thispage {
+font: 90% "Verdana";
+font-weight: 900;
+border: 1px solid #990000;
+list-style-type: none;
+line-height: 1.75em;
+}
+li.icon {
+font: 100% "Verdana";
+margin-left: -30px;
+margin-bottom: .3em;
+list-style-type: none;
+}
+
+
+
+a.whitelink:link {
+font: 90% "Verdana", sans-serif;
+font-weight: bold;
+color: #333;
+text-decoration: none;
+background-image: none;
+line-height: 1.75em;
+}
+a.whitelink:visited {
+font: 90% "Verdana", sans-serif;
+font-weight: bold;
+color: #333;
+text-decoration: none;
+background-image: none;
+line-height: 1.75em;
+}
+a.whitelink:hover {
+font: 90% "Verdana", sans-serif;
+font-weight: bold;
+color: #990000;
+text-decoration: none;
+border-top: 1px solid;
+border-bottom: 1px solid;
+/*background:#000;*/
+background-image: none;
+line-height: 1.75em;
+}
+a.whitelink:active {
+font: 90% "Verdana", sans-serif;
+font-weight: bold;
+color: #333;
+text-decoration: none;
+background-image: none;
+line-height: 1.75em;
+}
+
+a.orangelink:link {
+font: bold 100% "Verdana";
+color: #333;
+text-decoration: none;
+/*border-bottom: 1px dotted #f60;*/
+}
+a.orangelink:visited {
+font: bold 100% "Verdana";
+color: #333;
+text-decoration: none;
+/*border-bottom: 1px dotted #f60;*/
+}
+a.orangelink:hover {
+font: bold 100% "Verdana";
+color: #990000;
+text-decoration: none;
+border-top: 1px solid;
+border-bottom: 1px solid;
+}
+a.orangelink:active {
+font: bold 100% "Verdana";
+color: #333;
+text-decoration: none;
+border-bottom: 1px dotted #c30;
+}
+	
+	
+	
+	/* column container */
+	
+	.col1 {
+	padding-right:50px;
+	}
+	
+	
+	
+	
+	.colmask {
+		position:relative;		/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+	    clear:both;
+	    float:left;
+        width:100%;			/* width of whole page */
+		overflow:hidden;	/* This chops off any overhanging divs */
+	}
+	/* 2 column left menu settings */
+	.leftmenu {
+	    background:#ccc;
+	}
+    .leftmenu .colright {
+        float:left;
+        width:200%;
+		position:relative;
+		left:230px;
+        background:#fff;
+    }
+    .leftmenu .col1wrap {
+	    float:right;
+	    width:50%;
+	    position:relative;
+	    right:200px;
+	    padding-bottom:1em;
+	}
+	.leftmenu .col1 {
+        margin:0 15px 0 215px;
+	    position:relative;
+	    right:100%;
+	    overflow:hidden;
+	}
+    .leftmenu .col2 {
+        float:left;
+		padding-right: 20px;
+        width:180px;
+        position:relative;
+        right:200px;
+		text-align:right;
+		/*background:#ccc;*/
+    }
+	/* Footer styles */
+	#footer {
+        clear:both;
+        float:left;
+        width:100%;
+		background: #ccc;
+		border-top:1px solid #000;
+		text-align: center;
+    }
+    #footer p {
+        padding:10px;
+        margin:0;
+    }
